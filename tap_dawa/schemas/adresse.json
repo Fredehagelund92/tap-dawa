@@ -1,0 +1,65 @@
+{
+    "type": ["null", "object"],
+    "properties": {
+      "id": {
+        "type": ["null", "string"]
+      },
+      "status": {
+        "type": ["null", "integer"]
+      },
+      "oprettet": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "ændret": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "ikrafttrædelsesdato": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "adgangsadresseid": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "etage": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "dør": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "kilde": {
+        "type": [
+          "null",
+          "integer"
+        ]
+      },
+      "esdhreference": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "journalnummer": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    }
+}

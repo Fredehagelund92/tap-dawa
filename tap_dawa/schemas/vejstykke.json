@@ -1,0 +1,47 @@
+{
+    "type": ["null", "object"],
+    "properties": {
+      "id": {
+        "type": ["null", "string"]
+      },
+      "kommunekode": {
+        "type": ["null", "string"]
+      },
+      "kode": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "oprettet": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "ændret": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "navn": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "adresseringsnavn": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "navngivenvej_id": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    }
+}

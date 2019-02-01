@@ -1,0 +1,167 @@
+{
+    "type": ["null", "object"],
+    "properties": {
+      "id": {
+        "type": ["null", "string"]
+      },
+      "status": {
+        "type": ["null", "integer"]
+      },
+      "oprettet": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "ændret": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "ikrafttrædelsesdato": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "kommunekode": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "vejkode": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "husnr": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "supplerendebynavn": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "postnr": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "ejerlavkode": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "matrikelnr": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "esrejendomsnr": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "etrs89koordinat_øst": {
+        "type": [
+          "null",
+          "number"
+        ]
+      },
+      "etrs89koordinat_nord": {
+        "type": [
+          "null",
+          "number"
+        ]
+      },
+      "nøjagtighed": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "kilde": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "husnummerkilde": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "tekniskstandard": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "tekstretning": {
+        "type": [
+          "null",
+          "number"
+        ]
+      },
+      "adressepunktændringsdato": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "esdhreference": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "journalnummer": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "højde": {
+        "type": [
+          "null",
+          "number"
+        ]
+      },
+      "adgangspunktid": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "supplerendebynavn_dagi_id": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "vejpunkt_id": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "navngivenvej_id": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    }
+}

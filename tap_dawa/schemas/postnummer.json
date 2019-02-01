@@ -1,0 +1,17 @@
+{
+    "type": ["null", "object"],
+    "properties": {
+      "nr": {
+        "type": ["null", "string"]
+      },
+      "navn": {
+        "type": ["null", "string"]
+      },
+      "stormodtager": {
+        "type": [
+          "null",
+          "boolean"
+        ]
+      }
+    }
+}

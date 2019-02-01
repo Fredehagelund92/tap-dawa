@@ -1,0 +1,36 @@
+{
+    "type": ["null", "object"],
+    "properties": {
+      "id": {
+        "type": ["null", "string"]
+      },
+      "kilde": {
+        "type": ["null", "string"]
+      },
+      "tekniskstandard": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "nøjagtighedsklasse": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    //     ,
+    //   "longitude": {
+    //     "type": [
+    //       "null",
+    //       "number"
+    //     ]
+    //   },
+    //   "latitude": {
+    //     "type": [
+    //       "null",
+    //       "number"
+    //     ]
+    //   }
+    }
+}

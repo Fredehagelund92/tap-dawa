@@ -1,0 +1,975 @@
+{
+    "streams": [
+        {
+            "stream": "adgangsadresse",
+            "tap_stream_id": "adgangsadresse",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "properties": {
+                    "id": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "status": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "oprettet": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "\u00e6ndret": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "ikrafttr\u00e6delsesdato": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "kommunekode": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "vejkode": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "husnr": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "supplerendebynavn": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "postnr": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "ejerlavkode": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "matrikelnr": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "esrejendomsnr": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "etrs89koordinat_\u00f8st": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "etrs89koordinat_nord": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "n\u00f8jagtighed": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "kilde": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "husnummerkilde": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "tekniskstandard": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "tekstretning": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "adressepunkt\u00e6ndringsdato": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "esdhreference": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "journalnummer": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "h\u00f8jde": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "adgangspunktid": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "supplerendebynavn_dagi_id": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "vejpunkt_id": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "navngivenvej_id": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    }
+                }
+            },
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "table-key-properties": [
+                            "id"
+                        ],
+                        "forced-replication-method": "LOG_BASED",
+                        "valid-replication-keys": [
+                            "id"
+                        ]
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "id"
+                    ],
+                    "metadata": {
+                        "inclusion": "automatic"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "status"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "oprettet"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "\u00e6ndret"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "ikrafttr\u00e6delsesdato"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "kommunekode"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "vejkode"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "husnr"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "supplerendebynavn"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "postnr"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "ejerlavkode"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "matrikelnr"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "esrejendomsnr"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "etrs89koordinat_\u00f8st"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "etrs89koordinat_nord"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "n\u00f8jagtighed"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "kilde"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "husnummerkilde"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "tekniskstandard"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "tekstretning"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "adressepunkt\u00e6ndringsdato"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "esdhreference"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "journalnummer"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "h\u00f8jde"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "adgangspunktid"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "supplerendebynavn_dagi_id"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "vejpunkt_id"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "navngivenvej_id"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                }
+            ]
+        },
+        {
+            "stream": "adresse",
+            "tap_stream_id": "adresse",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "properties": {
+                    "id": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "status": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "oprettet": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "\u00e6ndret": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "ikrafttr\u00e6delsesdato": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "adgangsadresseid": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "etage": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "d\u00f8r": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "kilde": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "esdhreference": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "journalnummer": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    }
+                }
+            },
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "table-key-properties": [
+                            "id"
+                        ],
+                        "forced-replication-method": "LOG_BASED",
+                        "valid-replication-keys": [
+                            "id"
+                        ]
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "id"
+                    ],
+                    "metadata": {
+                        "inclusion": "automatic"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "status"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "oprettet"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "\u00e6ndret"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "ikrafttr\u00e6delsesdato"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "adgangsadresseid"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "etage"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "d\u00f8r"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "kilde"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "esdhreference"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "journalnummer"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                }
+            ]
+        },
+        {
+            "stream": "postnummer",
+            "tap_stream_id": "postnummer",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "properties": {
+                    "nr": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "navn": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "stormodtager": {
+                        "type": [
+                            "null",
+                            "boolean"
+                        ]
+                    }
+                }
+            },
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "table-key-properties": [
+                            "nr"
+                        ],
+                        "forced-replication-method": "LOG_BASED",
+                        "valid-replication-keys": [
+                            "nr"
+                        ]
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "nr"
+                    ],
+                    "metadata": {
+                        "inclusion": "automatic"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "navn"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "stormodtager"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                }
+            ]
+        },
+        {
+            "stream": "vejstykke",
+            "tap_stream_id": "vejstykke",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "properties": {
+                    "id": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "kommunekode": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "kode": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "oprettet": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "\u00e6ndret": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "navn": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "adresseringsnavn": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "navngivenvej_id": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    }
+                }
+            },
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "table-key-properties": [
+                            "id"
+                        ],
+                        "forced-replication-method": "LOG_BASED",
+                        "valid-replication-keys": [
+                            "id"
+                        ]
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "id"
+                    ],
+                    "metadata": {
+                        "inclusion": "automatic"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "kommunekode"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "kode"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "oprettet"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "\u00e6ndret"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "navn"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "adresseringsnavn"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "navngivenvej_id"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                }
+            ]
+        },
+        {
+            "stream": "vejpunkt",
+            "tap_stream_id": "vejpunkt",
+            "schema": {
+                "selected":true,
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "properties": {
+                    "id": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "kilde": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "tekniskstandard": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "n\u00f8jagtighedsklasse": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "longitude": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "latitude": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    }
+                }
+            },
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "table-key-properties": [
+                            "id"
+                        ],
+                        "forced-replication-method": "LOG_BASED",
+                        "valid-replication-keys": [
+                            "id"
+                        ]
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "id"
+                    ],
+                    "metadata": {
+                        "inclusion": "automatic"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "kilde"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "tekniskstandard"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "n\u00f8jagtighedsklasse"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "longitude"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "latitude"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                }
+            ]
+        }
+    ]
+}
